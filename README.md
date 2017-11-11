@@ -15,14 +15,7 @@ Building host tools (used to generate dictionaries) still requires some more wor
 1. Checkout this build configuration:
 
         git clone https://github.com/iwo/LatinIME-Android-Studio.git .
-1. Checkout LatinIME sources to `LatinIME` subdirectory:
 
-        git clone https://github.com/CyanogenMod/android_packages_inputmethods_LatinIME.git LatinIME
-1. Checkout `frameworks/opt/inputmethodcommon` into `inputmethodcommon`:
-
-        git clone https://github.com/CyanogenMod/android_frameworks_opt_inputmethodcommon.git inputmethodcommon
 1. Import project into Android Studio
-1. Copy prebuild libjni_latinime.so to `app/src/main/jniLibs/armeabi/libjni_latinime.so`
-1. Remove `LatinIME/java/res/values/strings-emoji-descriptions.xml` (or fix encoding of the comments)
 
 Enjoy your new Android Keyboard!
